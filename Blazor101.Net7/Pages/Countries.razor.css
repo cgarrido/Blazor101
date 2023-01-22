@@ -1,0 +1,23 @@
+﻿
+.quickgrid {
+    width: 100%;   
+}
+    .quickgrid[theme=dark] {
+        background-color: grey;
+        color: white;
+    }
+    .quickgrid thead button {
+        color: white;
+    }
+
+    .quickgrid th, .quickgrid td {
+        padding: 10px;
+    }
+       
+    .quickgrid .col-title {
+        gap: 1rem;
+        font-weight: bold;
+        font-size: 90%;
+        text-transform: uppercase;
+    }
+
